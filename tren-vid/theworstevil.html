@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stillnessfilm</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/78/66/de/7866de662fd80388a762cf638cf1ca2d.jpg"
+        type="image/x-icon">
+    <style>
+        /* Gaya khusus untuk halaman film */
+        .movie-page {
+            background-color: #121212;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .movie-page .modal-content {
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        .movie-page .modal-header {
+            border-bottom: 1px solid #444;
+        }
+
+        .movie-page {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .movie-page #video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            max-width: 800px;
+            /* Atur lebar maksimum sesuai kebutuhan */
+            height: 100%;
+            margin: 0 auto;
+            /* Tengahkan video */
+        }
+
+
+
+        #category,
+        #release-date {
+            font-size: 12px;
+            display: inline;
+            padding-left: 10px;
+        }
+
+        #movie-description {
+            font-size: 12px;
+            padding-left: 10px;
+        }
+
+        h3 {
+            padding-left: 10px;
+        }
+
+        /* Responsive Styles */
+        @media screen and (min-width: 768px) {
+            .movie-page {
+                margin: 0 auto;
+                padding: 5em;
+                max-width: 60%;
+                /* Remove maximum width on smaller screens */
+            }
+
+            #category,
+            #release-date {
+                font-size: 15px;
+                display: inline;
+                padding-left: 10px;
+            }
+
+            #movie-description {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body class="movie-page">
+    <!-- Modal -->
+    <div class="modal fade" id="movieModal" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <video width="100%" controls>
+                        <source src="../movie/The Worst of Evil  Teaser Trailer  Disney Hotstar Indonesia.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <h3 class="modal-title" id="movieModalLabel">The Worst of Evil</h3>
+            <p id="release-date">Korea Selatan · 2023</p>
+            <br>
+            <p id="category">Kategori: Action · Thriller · Mystery · Crime</p>
+            <p id="movie-description"> berkisah tentang Park Jun-mo (Ji Chang-wook), seorang polisi detektif yang
+                bekerja di pedesaan. Pada suatu hari, Jun-mo pun mendapat tugas untuk menyamar dan menyusup ke
+                organisasi kriminal pimpinan Jung Gi-cheul (Wi Ha-joon) yang beroperasi di Seoul.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

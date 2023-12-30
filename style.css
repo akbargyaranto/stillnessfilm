@@ -1,0 +1,221 @@
+body {
+  background-color: #191919;
+}
+
+@media (min-width: 992px) {
+  /* Media query untuk layar dengan lebar minimal 992px (layar besar) */
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  .card.col-md-3 {
+    max-width: 17%;
+    margin: 17px;
+  }
+
+  p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Media query untuk layar dengan lebar minimal 992px (layar besar) */
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  .card.col-md-3 {
+    max-width: 17%;
+    margin: 17px;
+  }
+
+  p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 577px) {
+  /* Media query untuk layar dengan lebar minimal 576px (layar kecil) */
+  h1 {
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
+
+  .card.col-sm-3 {
+    max-width: 30%;
+    margin: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Media query untuk layar dengan lebar minimal 576px (layar kecil) */
+  h1 {
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
+
+  .card.col-sm-3 {
+    max-width: 30%;
+    margin: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+}
+
+/* .card.col-sm-6 {
+    width:10%;
+    min-width: 100px; /* Kolom penuh lebar pada layar kecil */
+
+/* .card.col-md-3 {
+    width: 50%; /* Setengah lebar pada layar medium dan lebih besar */
+
+.navbar {
+  background-color: #000;
+}
+
+.home,
+.anime,
+.k-drama {
+  color: white;
+}
+
+.nav-hover:hover {
+  color: darkgrey;
+}
+
+.col-sm-6 {
+  background-color: #191919;
+}
+.col-md-3 {
+  background-color: #191919;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-text:hover {
+  color: #d17bfb;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+p {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+p:hover {
+  cursor: pointer;
+}
+
+.mine {
+  padding: 20px;
+}
+
+/* 
+h1 {
+    padding-left: 12em;
+    padding-top: 3em;
+    font-size: 2em;
+    font-weight:bold;
+    padding-bottom: 10px;
+} */
+
+/* .populer {
+
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+ .terkini {
+
+    padding-left: 2em;
+    display: inline-block;
+} */
+
+@media (max-width: 767.98px) {
+  .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+  }
+}
+
+/* Gaya umum untuk semua lebar layar */
+.navbar-dark.bg-black {
+  background-color: #000 !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Gaya khusus untuk perangkat mobile */
+@media (max-width: 767.98px) {
+  .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+  }
+  /* Efek hover untuk tautan menu di perangkat mobile */
+  .nav-link:hover {
+    color: #e60000 !important;
+  }
+}
+
+/* Gaya umum untuk semua lebar layar */
+.navbar-dark.bg-black {
+  background-color: #000 !important;
+}
+/* Efek hover untuk tautan menu di semua lebar layar */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: red !important;
+}
+
+.modal-body {
+  background-color: #282828;
+}
+
+.modal-content {
+  background-color: #282828;
+}
+
+.modal-title {
+  color: white;
+}
+
+.close {
+  color: white;
+}
+
+
+
+
